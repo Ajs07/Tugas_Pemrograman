@@ -1,0 +1,141 @@
+* {
+			margin:0;
+			padding:0;
+		}
+		
+		body{
+			font-family:Verdana;
+			font-size:12px;
+		}
+		
+		body #container{
+			width:1000px;
+			margin: 0 auto;
+			background-color:#EBEBEB;
+		}
+		
+		#header{
+			background-image: url(images/header.jpg);
+			width:1000px;
+			height:160px;
+			background-color:#ffff99;
+			background-repeat:no-repeat;
+			background-position:center;
+		}
+		
+		#menu{
+			width:1000px;
+			text-align:center;
+			background-color:#993300;
+			padding-top:10px;
+			padding-bottom:10px;
+		}
+		
+		#menu a:link{
+			background-color:yellow;
+			color:#000000;
+			text-decoration:none;
+			font-size:14px;
+		}
+		
+		#menu a:hover{
+			background-color:blue;
+			color:#FFFFFF;
+			font-weight:bold;
+			text-decoration:underline;
+			font-weight:16px;
+		}
+		
+		#content{
+			background-color:#FFFFFF;
+			width:675px;
+			padding: 15px 15px 15px 15px;
+			letter-spacing:1px;
+			word-spacing:10px;
+			text-align:justify;
+			float:left;
+		}
+		
+		#right{
+			width:295px;
+			background-color:#FFFFFF;
+			float:left;
+		}
+		
+		#right li {
+			padding: 5px;
+			border-bottom: 2px dotted silver;
+		}
+
+		#footer{
+			background-color: #6885aa;
+			color: #ffff;
+			width:1000px;
+			height:150px;
+			float:left;
+		}
+		
+		#bottom{
+			text-align:center;
+			font-size:12px;
+			margin: 40px 15px;
+			
+		}
+		
+		#kolommember{
+			border: 1px solid #000;
+			width:264px;
+			height:150px;
+			margin: 20px auto;
+			background-color:#000000;
+			border-radius: 10px 10px 10px 10px;
+			
+		}
+		
+		.member{
+			background-image: url(images/member_login.gif);
+			text-align:center;
+			color:yellow;
+			padding: 10px 0;
+
+		}
+
+		.register {
+			margin: 5px;
+			color: orange;
+		}
+
+
+		.register:active {
+			background-color: blue;
+			color: white;
+			font-size: 15px;
+		}
+
+		.login {
+			float: right;
+			margin: 10px 25px;
+			color: white;
+			font-size: 14px;
+  			font-family: inherit;
+  			padding: 0.2em 0.1em;
+  			background-color: #7393d9;
+  			border: 2px solid var(--input-border);
+  			border-radius: 4px;
+		}
+		
+		.txtBox{
+			width:200px;
+			height:25px;
+			background-color:#FFFFCC;
+			color:#000000;
+			margin: 5px 10px;
+		}
+
+		.categories {
+			background-color: orange;
+			padding: 10px ;
+			margin-top: 30px;
+
+		}
+
